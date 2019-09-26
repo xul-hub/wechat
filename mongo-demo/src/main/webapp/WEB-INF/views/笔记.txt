@@ -1,0 +1,20 @@
+笔记
+
+	1. 存储用户个人信息
+	2.签到：  id openid  times  countnums 是否签到 ture false（单条记录）
+		连续签到5天 前天为签到需要update清0
+	3.文章存储：  id 标题  times 文章url counts
+	4.营养液统计：id  times 	
+			 签到  3个
+			1> 查询是否今天是否签到
+			
+			 文章（统计browse = 1个数 ）
+			 1> 查询字段为browse = 1统计个数 
+			 	大于 8 个 直接完成 16个 
+			 	
+			 	小于等于8 处理 上限 2 x 次数 = 总计（个）
+			 
+			 点赞 2次  一次点赞 完成3个
+				
+	
+	4点赞giving：id  openid 点赞数  
